@@ -78,6 +78,10 @@ body {
   border-top: black 2px solid;
 }
 
+.to-right {
+  margin-left: 205px;
+}
+
 p {
   line-height: 10px;
 }
