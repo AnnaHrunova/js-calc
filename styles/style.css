@@ -51,6 +51,8 @@ body {
   border-top: 2px white solid;
   margin: 5px;
   border-bottom: black 2px solid;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .button.gray {
