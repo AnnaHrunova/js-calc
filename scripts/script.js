@@ -7,7 +7,7 @@ function insertSymbol(val) {
 }
 
 function calc() {
-  var expression = "?expr=" + document.getElementById("display").value;
+  var expression = "?expr=" + encodeURIComponent(document.getElementById("display").value);
   var host = "http://api.mathjs.org/v4/";
   var xmlHttp = new XMLHttpRequest();
   try {
